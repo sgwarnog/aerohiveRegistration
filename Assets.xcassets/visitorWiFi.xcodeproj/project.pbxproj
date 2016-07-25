@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037C9B601D0C1863008076EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C9B5F1D0C1863008076EF /* AppDelegate.swift */; };
+		037C9B621D0C1863008076EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C9B611D0C1863008076EF /* ViewController.swift */; };
+		037C9B651D0C1863008076EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037C9B631D0C1863008076EF /* Main.storyboard */; };
+		037C9B671D0C1863008076EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037C9B661D0C1863008076EF /* Assets.xcassets */; };
+		037C9B761D0CBE75008076EF /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C9B751D0CBE75008076EF /* PasswordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037C9B5C1D0C1863008076EF /* visitorWiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visitorWiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037C9B5F1D0C1863008076EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		037C9B611D0C1863008076EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		037C9B641D0C1863008076EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		037C9B661D0C1863008076EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037C9B6B1D0C1863008076EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037C9B751D0CBE75008076EF /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037C9B591D0C1863008076EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C9B531D0C1863008076EF = {
+			isa = PBXGroup;
+			children = (
+				037C9B5E1D0C1863008076EF /* visitorWiFi */,
+				037C9B5D1D0C1863008076EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037C9B5D1D0C1863008076EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037C9B5C1D0C1863008076EF /* visitorWiFi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037C9B5E1D0C1863008076EF /* visitorWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				037C9B5F1D0C1863008076EF /* AppDelegate.swift */,
+				037C9B611D0C1863008076EF /* ViewController.swift */,
+				037C9B751D0CBE75008076EF /* PasswordViewController.swift */,
+				037C9B631D0C1863008076EF /* Main.storyboard */,
+				037C9B661D0C1863008076EF /* Assets.xcassets */,
+				037C9B6B1D0C1863008076EF /* Info.plist */,
+			);
+			name = visitorWiFi;
+			path = visitorWifi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037C9B5B1D0C1863008076EF /* visitorWiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037C9B6E1D0C1863008076EF /* Build configuration list for PBXNativeTarget "visitorWiFi" */;
+			buildPhases = (
+				037C9B581D0C1863008076EF /* Sources */,
+				037C9B591D0C1863008076EF /* Frameworks */,
+				037C9B5A1D0C1863008076EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = visitorWiFi;
+			productName = popover;
+			productReference = 037C9B5C1D0C1863008076EF /* visitorWiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037C9B541D0C1863008076EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "joseff harris";
+				TargetAttributes = {
+					037C9B5B1D0C1863008076EF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W7B3T2G7NY;
+					};
+				};
+			};
+			buildConfigurationList = 037C9B571D0C1863008076EF /* Build configuration list for PBXProject "visitorWiFi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037C9B531D0C1863008076EF;
+			productRefGroup = 037C9B5D1D0C1863008076EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037C9B5B1D0C1863008076EF /* visitorWiFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037C9B5A1D0C1863008076EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037C9B671D0C1863008076EF /* Assets.xcassets in Resources */,
+				037C9B651D0C1863008076EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037C9B581D0C1863008076EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037C9B621D0C1863008076EF /* ViewController.swift in Sources */,
+				037C9B601D0C1863008076EF /* AppDelegate.swift in Sources */,
+				037C9B761D0CBE75008076EF /* PasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		037C9B631D0C1863008076EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037C9B641D0C1863008076EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037C9B6C1D0C1863008076EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037C9B6D1D0C1863008076EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037C9B6F1D0C1863008076EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/visitorWifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantref.visitorWiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		037C9B701D0C1863008076EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/visitorWifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantref.visitorWiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037C9B571D0C1863008076EF /* Build configuration list for PBXProject "visitorWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037C9B6C1D0C1863008076EF /* Debug */,
+				037C9B6D1D0C1863008076EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037C9B6E1D0C1863008076EF /* Build configuration list for PBXNativeTarget "visitorWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037C9B6F1D0C1863008076EF /* Debug */,
+				037C9B701D0C1863008076EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037C9B541D0C1863008076EF /* Project object */;
+}
